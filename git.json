@@ -1,0 +1,44 @@
+[
+   {
+    "app": "comskip",
+    "repo": "erikkaashoek/Comskip",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
+    "app": "couchpotato",
+    "repo": "CouchPotato/CouchPotatoServer",
+    "branch": "develop",
+    "type": "commit"
+  },
+  {
+    "app": "ffmpeg",
+    "repo": "FFmpeg/FFmpeg",
+    "branch": "master",
+    "type": "commit"
+  },
+ {
+    "app": "par2",
+    "repo": "Parchive/par2cmdline",
+    "branch": "master",
+    "type": "commit"
+},
+  {
+    "app": "s6-overlay",
+    "repo": "just-containers/s6-overlay",
+    "branch": "master",
+    "type": "release"
+  },
+  {
+    "app": "sabnzbd",
+    "repo": "sabnzbd/sabnzbd",
+    "branch": "master",
+    "type": "release"
+  },
+  {
+    "app": "snapraid",
+    "repo": "amadvance/snapraid",
+    "branch": "master",
+    "type": "release"
+  }
+]
