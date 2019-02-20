@@ -11,10 +11,12 @@ case "$type" in
 "release")
 JQ_ARG=".tag_name"
 GIT_SUFFIX="releases/latest"
+TYPE_SUFFIX="RELEASE"
 ;;
 "commit")
 JQ_ARG=".sha"
 GIT_SUFFIX="commits/$branch"
+TYPE_SUFFIX="COMMIT"
 ;;
 esac
 
@@ -22,19 +24,11 @@ esac
 APP_RELEASE=$(curl --user "" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
-# apply bash substitutions based on release type to clean releases of leading v
-# or shorten commits to 7 characters
-
-case "$type" in
-"release")
-APP_RELEASE="${APP_RELEASE#v}"
-TYPE_SUFFIX="RELEASE"
-;;
-"commit")
+# strip commit type version to 7 characters or strip leading v, if present on release type
+if [ "${#APP_RELEASE}" = 40 ] ; then
 APP_RELEASE="${APP_RELEASE:0:7}"
-TYPE_SUFFIX="COMMIT"
-;;
-esac
+else APP_RELEASE="${APP_RELEASE#v}"
+fi
 
 echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}"
 
