@@ -21,7 +21,7 @@ TYPE_SUFFIX="COMMIT"
 esac
 
 # get version of each app
-APP_RELEASE=$(curl --user "" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
+APP_RELEASE=$(curl --user "SECRETUSER:SECRETPASS" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
 # strip commit type version to 7 characters or strip leading v, if present on release type
