@@ -24,6 +24,12 @@
     "type": "release"
   },
  {
+    "app": "libtorrent",
+    "repo": "arvidn/libtorrent",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
