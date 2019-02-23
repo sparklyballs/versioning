@@ -1,0 +1,16 @@
+[
+   {
+    "app": "unifi",
+    "branch": "5.6",
+    "url": "http://dl-origin.ubnt.com/unifi/debian/dists/unifi-",
+    "urlsuffix": "/ubiquiti/binary-amd64/Packages",
+    "manip": "grep -Po '(?<=Version:\\ )[^-]+'"
+  },
+   {
+    "app": "unrar",
+    "branch": "0",
+    "url": "https://www.rarlab.com/rar_add.htm",
+    "urlsuffix": "0",
+    "manip": "grep -Po '(?<=rar\\/unrarsrc-)\\d.\\d.\\d'"
+  }
+]

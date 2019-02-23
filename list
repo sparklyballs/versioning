@@ -1,0 +1,2 @@
+grep -Po '(?<=rar\/unrarsrc-)\d.\d.\d'
+grep -Po '(?<=rar\/unrarsrc-)\d.\d.\d'
