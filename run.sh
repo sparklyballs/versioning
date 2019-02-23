@@ -31,7 +31,7 @@ APP_RELEASE=$(curl --user "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.git
 
 # apply bash substitutions dependedant on type of release
 case "$type" in
-"release")
+"release"|"tag")
 APP_RELEASE="${APP_RELEASE#v}"
 ;;
 "commit")
