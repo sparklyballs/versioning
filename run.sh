@@ -29,11 +29,22 @@ esac
 APP_RELEASE=$(curl --user "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
-# strip commit type version to 7 characters or strip leading v, if present on release type
-if [ "${type}" == "commit" ] ; then
+# apply bash substitutions dependedant on type of release
+case "$type" in
+"release")
+APP_RELEASE="${APP_RELEASE#v}"
+;;
+"commit")
 APP_RELEASE="${APP_RELEASE:0:7}"
-else APP_RELEASE="${APP_RELEASE#v}"
-fi
+;;
+esac
+
+case "$app" in
+"libtorrent")
+APP_RELEASE="${APP_RELEASE#libtorrent_}"
+APP_RELEASE="${APP_RELEASE//_/.}"
+;;
+esac
 
 echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}"
 
