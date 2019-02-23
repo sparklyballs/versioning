@@ -17,6 +17,12 @@
     "branch": "master",
     "type": "commit"
   },
+  {
+    "app": "hadolint",
+    "repo": "hadolint/hadolint",
+    "branch": "master",
+    "type": "release"
+  },
  {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
