@@ -35,6 +35,6 @@ APP_RELEASE="${APP_RELEASE:0:7}"
 else APP_RELEASE="${APP_RELEASE#v}"
 fi
 
-echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}"
+echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}" >> /build/version.txt
 
 done
