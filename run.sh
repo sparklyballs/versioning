@@ -18,6 +18,11 @@ JQ_ARG=".sha"
 GIT_SUFFIX="commits/$branch"
 TYPE_SUFFIX="COMMIT"
 ;;
+"tag")
+JQ_ARG=".[0].name"
+GIT_SUFFIX="tags"
+TYPE_SUFFIX="TAG"
+;;
 esac
 
 # get version of each app

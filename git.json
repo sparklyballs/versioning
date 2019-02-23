@@ -36,6 +36,12 @@
     "type": "release"
   },
   {
+    "app": "shellcheck",
+    "repo": "koalaman/shellcheck",
+    "branch": "master",
+    "type": "tag"
+  },
+  {
     "app": "snapraid",
     "repo": "amadvance/snapraid",
     "branch": "master",
