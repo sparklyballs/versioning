@@ -16,6 +16,6 @@ FETCH_URL="${url}${branch}${urlsuffix}"
 esac
 
 APP_RELEASE=$(curl -s "${FETCH_URL}" | eval "${manip}")
-echo "${app^^}_RELEASE=${APP_RELEASE}" >> /build/version.txt
+echo "${app^^}_RELEASE=${APP_RELEASE}"
 
 done
