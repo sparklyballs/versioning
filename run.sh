@@ -30,7 +30,7 @@ APP_RELEASE=$(curl --user "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.git
 		| jq -r "${JQ_ARG}")
 
 # strip commit type version to 7 characters or strip leading v, if present on release type
-if [ "${#APP_RELEASE}" = 40 ] ; then
+if [ "${type}" == "commit" ] ; then
 APP_RELEASE="${APP_RELEASE:0:7}"
 else APP_RELEASE="${APP_RELEASE#v}"
 fi
