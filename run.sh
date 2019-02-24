@@ -6,7 +6,7 @@ jq -M -r '
 ' < git.json | \
 while read -r app; read -r repo; read -r branch; read -r type ;do
 
-# set url elements and jq argument based on release type
+# set url elements and jq argument based on type
 case "$type" in
 "release")
 JQ_ARG=".tag_name"
@@ -29,7 +29,7 @@ esac
 APP_RELEASE=$(curl --user "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
-# apply bash substitutions dependedant on type of release
+# apply bash substitutions dependent on type
 case "$type" in
 "release"|"tag")
 APP_RELEASE="${APP_RELEASE#v}"
@@ -57,6 +57,7 @@ jq -M -r '
 ' < endpoint.json | \
 while read -r app; read -r branch; read -r url; read -r urlsuffix; read -r manip ; do
 
+# set url elements and string manipulation argument
 case "$branch" in
 "0")
 FETCH_URL="${url}"
@@ -66,7 +67,9 @@ FETCH_URL="${url}${branch}${urlsuffix}"
 ;;
 esac
 
+# get version of each app
 APP_RELEASE=$(curl -s "${FETCH_URL}" | eval "${manip}")
+
 echo "${app^^}_RELEASE=${APP_RELEASE}"
 
 done
