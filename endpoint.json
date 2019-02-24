@@ -3,7 +3,7 @@
     "app": "deluge",
     "branch": "0",
     "url": "https://dev.deluge-torrent.org/wiki/Download",
-    "urlsuffix": "/ubiquiti/binary-amd64/Packages",
+    "urlsuffix": "0",
     "manip": "grep -Po '(?<=Latest Release: <strong>)[^-]+'"
   },
    {
