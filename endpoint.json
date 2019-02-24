@@ -25,6 +25,6 @@
     "branch": "0",
     "url": "https://www.rarlab.com/rar_add.htm",
     "urlsuffix": "0",
-    "manip": "grep -Po '(?<=rar/unrarsrc-)[^.]*.[^.]*.[^.]+'"
+    "manip": "grep -Po '(?<=rar/unrarsrc-).*(?=.tar)'"
   }
 ]
