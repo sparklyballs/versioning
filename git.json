@@ -36,7 +36,7 @@
     "type": "commit"
 },
   {
-    "app": "s6-overlay",
+    "app": "s6_overlay",
     "repo": "just-containers/s6-overlay",
     "branch": "master",
     "type": "release"
