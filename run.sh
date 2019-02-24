@@ -68,7 +68,7 @@ FETCH_URL="${url}${branch}${urlsuffix}"
 esac
 
 # get version of each app
-APP_RELEASE=$(curl -s "${FETCH_URL}" | eval "${manip}")
+APP_RELEASE=$(curl -sX GET "${FETCH_URL}" | eval "${manip}")
 
 echo "${app^^}_RELEASE=${APP_RELEASE}"
 
