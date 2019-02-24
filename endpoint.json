@@ -1,5 +1,12 @@
 [
    {
+    "app": "alpine_linux",
+    "branch": "0",
+    "url": "https://alpinelinux.org/downloads/",
+    "urlsuffix": "0",
+    "manip": "grep -Po '(?<=Version <strong>)[^<]+'"
+  },
+   {
     "app": "deluge",
     "branch": "0",
     "url": "https://dev.deluge-torrent.org/wiki/Download",
