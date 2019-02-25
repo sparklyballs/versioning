@@ -44,6 +44,9 @@ case "$app" in
 APP_RELEASE="${APP_RELEASE#libtorrent_}"
 APP_RELEASE="${APP_RELEASE//_/.}"
 ;;
+"jq")
+APP_RELEASE="${APP_RELEASE#jq-}"
+;;
 esac
 
 echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}"

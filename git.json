@@ -24,6 +24,12 @@
     "type": "release"
   },
  {
+    "app": "jq",
+    "repo": "stedolan/jq",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "libtorrent",
     "repo": "arvidn/libtorrent",
     "branch": "master",
