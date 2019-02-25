@@ -30,6 +30,12 @@
     "type": "release"
 },
  {
+    "app": "libreelec",
+    "repo": "LibreELEC/LibreELEC.tv",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "libtorrent",
     "repo": "arvidn/libtorrent",
     "branch": "master",
