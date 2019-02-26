@@ -6,10 +6,10 @@
     "type": "release"
   },
   {
-    "app": "couchpotato",
-    "repo": "CouchPotato/CouchPotatoServer",
+    "app": "chromaprint",
+    "repo": "acoustid/chromaprint",
     "branch": "develop",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "ffmpeg",
