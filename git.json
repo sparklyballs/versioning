@@ -1,16 +1,4 @@
 [
-   {
-    "app": "beets",
-    "repo": "beetbox/beets",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "chromaprint",
-    "repo": "acoustid/chromaprint",
-    "branch": "develop",
-    "type": "release"
-  },
   {
     "app": "ffmpeg",
     "repo": "FFmpeg/FFmpeg",
