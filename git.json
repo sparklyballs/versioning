@@ -21,7 +21,7 @@
     "app": "libreelec",
     "repo": "LibreELEC/LibreELEC.tv",
     "branch": "master",
-    "type": "release"
+    "type": "tag"
 },
  {
     "app": "libtorrent",
