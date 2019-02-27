@@ -1,5 +1,11 @@
 [
   {
+    "app": "comskip",
+    "repo": "erikkaashoek/Comskip",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "ffmpeg",
     "repo": "FFmpeg/FFmpeg",
     "branch": "master",
