@@ -1,9 +1,9 @@
 [
   {
-    "app": "comskip",
-    "repo": "erikkaashoek/Comskip",
+    "app": "beets",
+    "repo": "beetbox/beets",
     "branch": "master",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "couchpotato",
