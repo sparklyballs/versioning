@@ -6,6 +6,12 @@
     "type": "release"
   },
   {
+    "app": "beets",
+    "repo": "beetbox/beets",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "couchpotato",
     "repo": "CouchPotato/CouchPotatoServer",
     "branch": "develop",
