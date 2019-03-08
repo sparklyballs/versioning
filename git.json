@@ -12,6 +12,12 @@
     "type": "commit"
   },
   {
+    "app": "comskip",
+    "repo": "erikkaashoek/Comskip",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "couchpotato",
     "repo": "CouchPotato/CouchPotatoServer",
     "branch": "develop",
