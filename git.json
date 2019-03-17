@@ -24,6 +24,12 @@
     "type": "commit"
   },
   {
+    "app": "fail2ban",
+    "repo": "fail2ban/fail2ban",
+    "branch": "0.11",
+    "type": "commit"
+  },
+  {
     "app": "ffmpeg",
     "repo": "FFmpeg/FFmpeg",
     "branch": "master",
