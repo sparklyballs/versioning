@@ -60,12 +60,6 @@
     "type": "release"
 },
  {
-    "app": "nginx_echo",
-    "repo": "openresty/echo-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
     "app": "nginx_cache_purge",
     "repo": "nginx-modules/ngx_cache_purge",
     "branch": "master",
