@@ -12,7 +12,6 @@ jq: error (at <stdin>:4): Cannot index object with number
 JQ_RELEASE=null
 LIBREELEC_TAG=
 LIBTORRENT_RELEASE=null
-NGINX_CACHE_PURGE_RELEASE=null
 PAR2_COMMIT=null
 S6_OVERLAY_RELEASE=null
 SABNZBD_RELEASE=null
