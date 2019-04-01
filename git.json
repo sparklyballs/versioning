@@ -87,7 +87,7 @@
     "app": "nginx_nchan",
     "repo": "slact/nchan",
     "branch": "master",
-    "type": "release"
+    "type": "tag"
 },
  {
     "app": "nginx_redis",
