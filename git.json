@@ -84,6 +84,12 @@
     "type": "commit"
 },
  {
+    "app": "nginx_upload",
+    "repo": "masterzen/nginx-upload-progress-module",
+    "branch": "master",
+    "type": "commit"
+},
+ {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
