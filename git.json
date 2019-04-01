@@ -78,8 +78,8 @@
     "type": "commit"
 },
  {
-    "app": "nginx_lua_upstream",
-    "repo": "openresty/lua-upstream-nginx-module",
+    "app": "nginx_redis",
+    "repo": "openresty/redis2-nginx-module",
     "branch": "master",
     "type": "commit"
 },
