@@ -72,6 +72,12 @@
     "type": "release"
 },
  {
+    "app": "nginx_lua",
+    "repo": "openresty/lua-nginx-module",
+    "branch": "master",
+    "type": "commit"
+},
+ {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
