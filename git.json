@@ -60,12 +60,6 @@
     "type": "release"
 },
  {
-    "app": "nginx_cache_purge",
-    "repo": "nginx-modules/ngx_cache_purge",
-    "branch": "master",
-    "type": "release"
-},
- {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
