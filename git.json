@@ -78,6 +78,12 @@
     "type": "commit"
 },
  {
+    "app": "nginx_lua_upstream",
+    "repo": "openresty/lua-upstream-nginx-module",
+    "branch": "master",
+    "type": "commit"
+},
+ {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
