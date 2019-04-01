@@ -84,6 +84,12 @@
     "type": "commit"
 },
  {
+    "app": "nginx_nchan",
+    "repo": "slact/nchan",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "nginx_redis",
     "repo": "openresty/redis2-nginx-module",
     "branch": "master",
