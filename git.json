@@ -78,7 +78,7 @@
     "type": "commit"
 },
  {
-    "app": "nginx_headers-more",
+    "app": "nginx_headers_more",
     "repo": "openresty/headers-more-nginx-module",
     "branch": "master",
     "type": "commit"
