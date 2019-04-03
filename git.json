@@ -90,6 +90,12 @@
     "type": "tag"
 },
  {
+    "app": "nginx_ngx_devel",
+    "repo": "simplresty/ngx_devel_kit",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "nginx_redis",
     "repo": "openresty/redis2-nginx-module",
     "branch": "master",
