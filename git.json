@@ -72,6 +72,12 @@
     "type": "commit"
 },
  {
+    "app": "nginx_fancyindex",
+    "repo": "aperezdc/ngx-fancyindex",
+    "branch": "master",
+    "type": "commit"
+},
+ {
     "app": "nginx_headers-more",
     "repo": "openresty/headers-more-nginx-module",
     "branch": "master",
