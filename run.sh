@@ -47,6 +47,9 @@ APP_RELEASE="${APP_RELEASE//_/.}"
 "jq")
 APP_RELEASE="${APP_RELEASE#jq-}"
 ;;
+"nginx")
+APP_RELEASE="${APP_RELEASE#release-}"
+;;
 esac
 
 echo "${app^^}_${TYPE_SUFFIX}=${APP_RELEASE}"
