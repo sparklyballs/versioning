@@ -60,6 +60,12 @@
     "type": "release"
 },
  {
+    "app": "nginx",
+    "repo": "nginx/nginx",
+    "branch": "master",
+    "type": "tag"
+},
+ {
     "app": "nginx_cache_purge",
     "repo": "nginx-modules/ngx_cache_purge",
     "branch": "master",
