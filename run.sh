@@ -41,7 +41,7 @@ esac
 
 case "$app" in
 "libtorrent")
-APP_RELEASE="${APP_RELEASE#libtorrent_}"
+APP_RELEASE="${APP_RELEASE#libtorrent-}"
 APP_RELEASE="${APP_RELEASE//_/.}"
 ;;
 "jq")
