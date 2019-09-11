@@ -15,7 +15,7 @@
   },
    {
     "app": "unifi",
-    "branch": "5.10",
+    "branch": "5.11",
     "url": "http://dl-origin.ubnt.com/unifi/debian/dists/unifi-",
     "urlsuffix": "/ubiquiti/binary-amd64/Packages",
     "manip": "grep -Po '(?<=Version: )[^-]+'"
