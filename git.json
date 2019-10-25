@@ -1,32 +1,8 @@
 [
   {
-    "app": "beets",
-    "repo": "beetbox/beets",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "beets",
-    "repo": "beetbox/beets",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
     "app": "comskip",
     "repo": "erikkaashoek/Comskip",
     "branch": "master",
-    "type": "commit"
-  },
-  {
-    "app": "couchpotato",
-    "repo": "CouchPotato/CouchPotatoServer",
-    "branch": "develop",
-    "type": "commit"
-  },
-  {
-    "app": "fail2ban",
-    "repo": "fail2ban/fail2ban",
-    "branch": "0.11",
     "type": "commit"
   },
   {
@@ -54,82 +30,10 @@
     "type": "tag"
 },
  {
-    "app": "libtorrent",
-    "repo": "arvidn/libtorrent",
-    "branch": "master",
-    "type": "release"
-},
- {
     "app": "mergerfs",
     "repo": "trapexit/mergerfs",
     "branch": "master",
     "type": "release"
-},
- {
-    "app": "nginx",
-    "repo": "nginx/nginx",
-    "branch": "master",
-    "type": "tag"
-},
- {
-    "app": "nginx_cache_purge",
-    "repo": "nginx-modules/ngx_cache_purge",
-    "branch": "master",
-    "type": "release"
-},
- {
-    "app": "nginx_echo",
-    "repo": "openresty/echo-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_fancyindex",
-    "repo": "aperezdc/ngx-fancyindex",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_headers_more",
-    "repo": "openresty/headers-more-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_lua",
-    "repo": "openresty/lua-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_lua_upstream",
-    "repo": "openresty/lua-upstream-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_nchan",
-    "repo": "slact/nchan",
-    "branch": "master",
-    "type": "tag"
-},
- {
-    "app": "nginx_ngx_devel",
-    "repo": "simplresty/ngx_devel_kit",
-    "branch": "master",
-    "type": "release"
-},
- {
-    "app": "nginx_redis",
-    "repo": "openresty/redis2-nginx-module",
-    "branch": "master",
-    "type": "commit"
-},
- {
-    "app": "nginx_upload",
-    "repo": "masterzen/nginx-upload-progress-module",
-    "branch": "master",
-    "type": "commit"
 },
  {
     "app": "par2",

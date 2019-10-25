@@ -7,20 +7,6 @@
     "manip": "grep -Po '(?<=Version <strong>)[^<]+'"
   },
    {
-    "app": "deluge",
-    "branch": "0",
-    "url": "https://dev.deluge-torrent.org/wiki/Download",
-    "urlsuffix": "0",
-    "manip": "grep -Po '(?<=Latest Release: <strong>)[^-]+'"
-  },
-   {
-    "app": "unifi",
-    "branch": "5.11",
-    "url": "http://dl-origin.ubnt.com/unifi/debian/dists/unifi-",
-    "urlsuffix": "/ubiquiti/binary-amd64/Packages",
-    "manip": "grep -Po '(?<=Version: )[^-]+'"
-  },
-   {
     "app": "unrar",
     "branch": "0",
     "url": "https://www.rarlab.com/rar_add.htm",
