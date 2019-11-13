@@ -1,28 +1,10 @@
 [
   {
-    "app": "comskip",
-    "repo": "erikkaashoek/Comskip",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
-    "app": "ffmpeg",
-    "repo": "FFmpeg/FFmpeg",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
     "app": "hadolint",
     "repo": "hadolint/hadolint",
     "branch": "master",
     "type": "release"
   },
- {
-    "app": "jq",
-    "repo": "stedolan/jq",
-    "branch": "master",
-    "type": "release"
-},
  {
     "app": "libreelec",
     "repo": "LibreELEC/LibreELEC.tv",
