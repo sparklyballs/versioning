@@ -6,6 +6,12 @@
     "type": "release"
   },
  {
+    "app": "kodi",
+    "repo": "xbmc/xbmc",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "libreelec",
     "repo": "LibreELEC/LibreELEC.tv",
     "branch": "master",
