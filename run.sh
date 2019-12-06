@@ -26,7 +26,7 @@ TYPE_SUFFIX="TAG"
 esac
 
 # get version of each app
-APP_RELEASE=$(curl --user "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
+APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
 # apply bash substitutions dependent on type
