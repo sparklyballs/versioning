@@ -57,7 +57,7 @@
     "app": "shellcheck",
     "repo": "koalaman/shellcheck",
     "branch": "master",
-    "type": "tag"
+    "type": "commit"
   },
   {
     "app": "snapraid",
