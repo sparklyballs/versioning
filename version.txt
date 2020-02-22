@@ -1,17 +1,14 @@
 ALPINE_LINUX_RELEASE=3.11.3
-  asked for: https://git.tt-rss.org/fox/tt-rss/info/refs?service=git-upload-pack
 COMSKIP_COMMIT=44fc321
-fatal: unable to update url base from redirection:
 FFMPEG_COMMIT=8e197a9
 HADOLINT_RELEASE=1.17.5
 KODI_RELEASE=18.5-Leia
 LIBREELEC_TAG=9.2.0
 MERGERFS_RELEASE=2.28.3
 PAR2_COMMIT=cf23c38
-   redirect: https://git.tt-rss.org/install
 S6_OVERLAY_RELEASE=1.22.1.0
 SABNZBD_RELEASE=2.3.9
 SHELLCHECK_TAG=0.7.0
 SNAPRAID_RELEASE=11.3
-TTRSS_RELEASE=
+TTRSS_RELEASE=282b445
 UNRAR_RELEASE=5.9.1
