@@ -18,6 +18,12 @@
     "type": "release"
   },
  {
+    "app": "jellyfin",
+    "repo": "jellyfin/jellyfin",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "kodi",
     "repo": "xbmc/xbmc",
     "branch": "master",
