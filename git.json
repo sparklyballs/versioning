@@ -76,5 +76,11 @@
     "repo": "standardnotes/web",
     "branch": "master",
     "type": "commit"
+  },
+  {
+    "app": "snsync",
+    "repo": "standardnotes/syncing-server",
+    "branch": "master",
+    "type": "commit"
   }
 ]
