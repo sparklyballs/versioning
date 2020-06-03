@@ -70,5 +70,11 @@
     "repo": "amadvance/snapraid",
     "branch": "master",
     "type": "release"
+  },
+  {
+    "app": "snsweb",
+    "repo": "standardnotes/web",
+    "branch": "master",
+    "type": "commit"
   }
 ]
