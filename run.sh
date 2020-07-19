@@ -45,7 +45,7 @@ APP_RELEASE="${APP_RELEASE#release-}"
 APP_RELEASE="${APP_RELEASE//_/.}"
 ;;
 "libtorrent")
-APP_RELEASE="${APP_RELEASE#libtorrent//.}"
+APP_RELEASE="${APP_RELEASE#libtorrent_}"
 APP_RELEASE="${APP_RELEASE//_/.}"
 ;;
 "jq")
