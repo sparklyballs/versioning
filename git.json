@@ -36,6 +36,12 @@
     "type": "tag"
 },
  {
+    "app": "libtorrent",
+    "repo": "arvidn/libtorrent",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "mergerfs",
     "repo": "trapexit/mergerfs",
     "branch": "master",
