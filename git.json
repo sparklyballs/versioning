@@ -48,6 +48,12 @@
     "type": "commit"
 },
   {
+    "app": "qbittorrent",
+    "repo": "qbittorrent/qBittorrent",
+    "branch": "master",
+    "type": "tag"
+  },
+  {
     "app": "s6_overlay",
     "repo": "just-containers/s6-overlay",
     "branch": "master",
