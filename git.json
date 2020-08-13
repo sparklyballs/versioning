@@ -100,5 +100,11 @@
     "repo": "upx/upx",
     "branch": "master",
     "type": "release"
+  },
+  {
+    "app": "w_scan2",
+    "repo": "stefantalpalaru/w_scan2",
+    "branch": "master",
+    "type": "commit"
   }
 ]
