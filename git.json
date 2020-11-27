@@ -42,12 +42,6 @@
     "type": "release"
 },
  {
-    "app": "mergerfs",
-    "repo": "trapexit/mergerfs",
-    "branch": "master",
-    "type": "release"
-},
- {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
@@ -76,12 +70,6 @@
     "repo": "koalaman/shellcheck",
     "branch": "master",
     "type": "commit"
-  },
-  {
-    "app": "snapraid",
-    "repo": "amadvance/snapraid",
-    "branch": "master",
-    "type": "release"
   },
   {
     "app": "snsweb",
