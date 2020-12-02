@@ -84,6 +84,12 @@
     "type": "commit"
   },
   {
+    "app": "tvhadmin",
+    "repo": "dave-p/TVHadmin",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "upx",
     "repo": "upx/upx",
     "branch": "master",
