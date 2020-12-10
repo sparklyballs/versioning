@@ -78,7 +78,14 @@ FETCH_URL="${url}${branch}${urlsuffix}"
 esac
 
 # get version of each app
+case "$app" in
+"deluge")
+APP_RELEASE=$(curl --insecure -sX GET "${FETCH_URL}" | eval "${manip}")
+;;
+*)
 APP_RELEASE=$(curl -sX GET "${FETCH_URL}" | eval "${manip}")
+;;
+esac
 
 echo "${app^^}_RELEASE=${APP_RELEASE}"
 

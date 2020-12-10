@@ -11,7 +11,7 @@
     "branch": "0",
     "url": "https://alpinelinux.org/downloads/",
     "urlsuffix": "0",
-    "manip": "grep -Po '(?<=Version <strong>)[^<]+'"
+    "manip": "grep -Po '(?<=Latest Release: <strong>)[^-]+'"
   },
    {
     "app": "unrar",
