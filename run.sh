@@ -80,12 +80,14 @@ esac
 # get version of each app
 case "$app" in
 "deluge")
-APP_RELEASE=$(curl --insecure -sX GET "${FETCH_URL}" | eval "${manip}")
+SECURE_PARAM="--insecure"
 ;;
 *)
-APP_RELEASE=$(curl -sX GET "${FETCH_URL}" | eval "${manip}")
+SECURE_PARAM=""
 ;;
 esac
+
+APP_RELEASE=$(curl "${SECURE_PARAM}" -sX GET "${FETCH_URL}" | eval "${manip}")
 
 echo "${app^^}_RELEASE=${APP_RELEASE}"
 
