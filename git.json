@@ -42,6 +42,12 @@
     "type": "release"
 },
  {
+    "app": "mealie",
+    "repo": "hay-kot/mealie",
+    "branch": "master",
+    "type": "commit"
+},
+ {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
