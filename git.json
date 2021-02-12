@@ -74,13 +74,13 @@
   {
     "app": "snsweb",
     "repo": "standardnotes/web",
-    "branch": "master",
+    "branch": "develop",
     "type": "commit"
   },
   {
     "app": "snsync",
     "repo": "standardnotes/syncing-server",
-    "branch": "master",
+    "branch": "develop",
     "type": "commit"
   },
   {
