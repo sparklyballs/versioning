@@ -94,5 +94,5 @@ echo "${app^^}_RELEASE=${APP_RELEASE}"
 done
 
 # get tt-rss version
-APP_RELEASE=$(git ls-remote https://git.tt-rss.org/fox/tt-rss refs/heads/master | cut -c 1-7)
-echo "TTRSS_RELEASE=${APP_RELEASE}"
+# APP_RELEASE=$(git ls-remote https://git.tt-rss.org/fox/tt-rss refs/heads/master | cut -c 1-7)
+# echo "TTRSS_RELEASE=${APP_RELEASE}"
