@@ -41,6 +41,12 @@
     "branch": "master",
     "type": "release"
 },
+  {
+    "app": "nextcloud",
+    "repo": "nextcloud/server",
+    "branch": "master",
+    "type": "release"
+  },
  {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
