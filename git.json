@@ -24,6 +24,12 @@
     "type": "release"
 },
  {
+    "app": "jitsi-meet",
+    "repo": "jitsi/docker-jitsi-meet",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "kodi",
     "repo": "xbmc/xbmc",
     "branch": "master",
