@@ -24,7 +24,7 @@
     "type": "release"
 },
  {
-    "app": "jitsi-meet",
+    "app": "jitsi",
     "repo": "jitsi/docker-jitsi-meet",
     "branch": "master",
     "type": "release"

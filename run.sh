@@ -51,7 +51,7 @@ APP_RELEASE="${APP_RELEASE//_/.}"
 "jq")
 APP_RELEASE="${APP_RELEASE#jq-}"
 ;;
-"jitsi-meet")
+"jitsi")
 APP_RELEASE="${APP_RELEASE#stable-}"
 ;;
 "nginx")
