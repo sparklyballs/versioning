@@ -44,8 +44,8 @@
  {
     "app": "libtorrent",
     "repo": "arvidn/libtorrent",
-    "branch": "master",
-    "type": "release"
+    "branch": "RC_1_2",
+    "type": "commit"
 },
  {
     "app": "par2",
