@@ -50,7 +50,7 @@
  {
     "app": "libtorrent",
     "repo": "arvidn/libtorrent",
-    "branch": "RC_1_1",
+    "branch": "RC_1_2",
     "type": "commit"
 },
  {
