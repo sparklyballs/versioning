@@ -1,5 +1,11 @@
 [
   {
+    "app": "chia-block",
+    "repo": "Chia-Network/chia-blockchain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "comskip",
     "repo": "erikkaashoek/Comskip",
     "branch": "master",
