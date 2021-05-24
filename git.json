@@ -90,24 +90,6 @@
     "type": "commit"
   },
   {
-    "app": "snsweb",
-    "repo": "standardnotes/web",
-    "branch": "develop",
-    "type": "commit"
-  },
-  {
-    "app": "snsync",
-    "repo": "standardnotes/syncing-server",
-    "branch": "develop",
-    "type": "commit"
-  },
-  {
-    "app": "tvhadmin",
-    "repo": "dave-p/TVHadmin",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
     "app": "upx",
     "repo": "upx/upx",
     "branch": "master",
