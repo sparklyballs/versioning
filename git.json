@@ -6,7 +6,7 @@
     "type": "release"
   },
   {
-    "app": "chia-plotter",
+    "app": "chia_plot",
     "repo": "madMAx43v3r/chia-plotter",
     "branch": "master",
     "type": "commit"
