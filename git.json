@@ -1,6 +1,6 @@
 [
   {
-    "app": "chia-block",
+    "app": "chia_block",
     "repo": "Chia-Network/chia-blockchain",
     "branch": "master",
     "type": "release"
