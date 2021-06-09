@@ -6,6 +6,12 @@
     "type": "release"
   },
   {
+    "app": "chia-plotter",
+    "repo": "madMAx43v3r/chia-plotter",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "comskip",
     "repo": "erikkaashoek/Comskip",
     "branch": "master",
