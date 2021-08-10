@@ -6,12 +6,6 @@
     "type": "release"
   },
   {
-    "app": "chia_plot",
-    "repo": "madMAx43v3r/chia-plotter",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
     "app": "comskip",
     "repo": "erikkaashoek/Comskip",
     "branch": "master",
@@ -65,7 +59,13 @@
     "branch": "RC_1_2",
     "type": "commit"
 },
- {
+  {
+    "app": "madmax",
+    "repo": "madMAx43v3r/chia-plotter",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
