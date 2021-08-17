@@ -33,6 +33,7 @@ APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.
 case "$type" in
 "release"|"tag")
 APP_RELEASE="${APP_RELEASE#v}"
+APP_RELEASE="${APP_RELEASE#V}"
 ;;
 "commit")
 APP_RELEASE="${APP_RELEASE:0:7}"
