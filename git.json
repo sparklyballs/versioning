@@ -24,6 +24,12 @@
     "type": "commit"
   },
   {
+    "app": "flax",
+    "repo": "Flax-Network/flax-blockchain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "hadolint",
     "repo": "hadolint/hadolint",
     "branch": "master",
