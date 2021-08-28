@@ -108,6 +108,12 @@
     "type": "commit"
   },
   {
+    "app": "silicoin",
+    "repo": "silicoin-network/silicoin-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
     "app": "upx",
     "repo": "upx/upx",
     "branch": "master",
