@@ -36,6 +36,12 @@
     "type": "commit"
   },
  {
+    "app": "hddcoin",
+    "repo": "HDDcoin-Network/hddcoin-blockchain",
+    "branch": "master",
+    "type": "release"
+},
+ {
     "app": "jellyfin",
     "repo": "jellyfin/jellyfin",
     "branch": "master",
