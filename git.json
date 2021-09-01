@@ -120,6 +120,12 @@
     "type": "commit"
   },
   {
+    "app": "sparecoin",
+    "repo": "Spare-Network/spare-blockchain",
+    "branch": "master",
+    "type": "commit"
+  },
+  {
     "app": "upx",
     "repo": "upx/upx",
     "branch": "master",
