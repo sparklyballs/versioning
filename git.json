@@ -30,6 +30,12 @@
     "type": "release"
   },
   {
+    "app": "flora",
+    "repo": "Flora-Network/flora-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "hadolint",
     "repo": "hadolint/hadolint",
     "branch": "master",
