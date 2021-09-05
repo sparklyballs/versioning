@@ -132,6 +132,12 @@
     "type": "commit"
   },
   {
+    "app": "tad",
+    "repo": "Tad-Network/tad-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "upx",
     "repo": "upx/upx",
     "branch": "master",
