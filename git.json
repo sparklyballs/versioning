@@ -18,6 +18,12 @@
     "type": "commit"
   },
   {
+    "app": "covid",
+    "repo": "pinksheetscrypto/covid-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "ffmpeg",
     "repo": "FFmpeg/FFmpeg",
     "branch": "master",
@@ -123,7 +129,7 @@
     "app": "silicoin",
     "repo": "silicoin-network/silicoin-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "sparecoin",
