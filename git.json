@@ -6,6 +6,12 @@
     "type": "release"
   },
   {
+    "app": "chiarose",
+    "repo": "snight1983/chia-rosechain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "chives",
     "repo": "HiveProject2021/chives-blockchain",
     "branch": "master",
