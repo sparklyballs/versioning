@@ -1,5 +1,11 @@
 [
   {
+    "app": "chaingreen",
+    "repo": "ChainGreenOrg/chaingreen-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
     "app": "chia_block",
     "repo": "Chia-Network/chia-blockchain",
     "branch": "master",
