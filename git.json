@@ -1,5 +1,11 @@
 [
   {
+    "app": "beer",
+    "repo": "Beer-Network/beer-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
     "app": "chaingreen",
     "repo": "ChainGreenOrg/chaingreen-blockchain",
     "branch": "main",
