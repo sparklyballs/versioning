@@ -120,11 +120,17 @@
     "type": "commit"
   },
   {
+    "app": "par2",
+    "repo": "Parchive/par2cmdline",
+    "branch": "master",
+    "type": "commit"
+   },
+   {
     "app": "pipscoin",
     "repo": "Pipscoin-Network/pipscoin-blockchain",
     "branch": "main",
     "type": "release"
-},
+  },
   {
     "app": "qbittorrent",
     "repo": "qbittorrent/qBittorrent",
