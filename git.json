@@ -120,6 +120,12 @@
     "type": "commit"
   },
   {
+    "app": "maize",
+    "repo": "Maize-Network/maize-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
@@ -172,6 +178,12 @@
     "repo": "Stor-Network/stor-blockchain",
     "branch": "main",
     "type": "release"
+  },
+  {
+    "app": "taco",
+    "repo": "Taco-Network/taco-blockchain",
+    "branch": "main",
+    "type": "commit"
   },
   {
     "app": "tad",
