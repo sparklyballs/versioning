@@ -2,8 +2,8 @@
   {
     "app": "mint",
     "repo": "MintNetwork/mint-blockchain",
-    "branch": "dev",
-    "type": "tag"
+    "branch": "main",
+    "type": "commit"
   },
   {
     "app": "beer",
