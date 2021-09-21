@@ -3,7 +3,7 @@
     "app": "mint",
     "repo": "MintNetwork/mint-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "beer",
