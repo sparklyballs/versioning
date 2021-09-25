@@ -9,6 +9,8 @@ cryptodoge \
 flax \
 flora \
 hddcoin \
+kiwi \
+lotus \
 lucky \
 maize \
 mint \
