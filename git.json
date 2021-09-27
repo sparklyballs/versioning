@@ -1,57 +1,9 @@
 [
   {
-    "app": "mint",
-    "repo": "MintNetwork/mint-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "beer",
-    "repo": "Beer-Network/beer-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
-    "app": "chaingreen",
-    "repo": "ChainGreenOrg/chaingreen-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
-    "app": "chia_block",
-    "repo": "Chia-Network/chia-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "chiarose",
-    "repo": "snight1983/chia-rosechain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "chives",
-    "repo": "HiveProject2021/chives-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
     "app": "comskip",
     "repo": "erikkaashoek/Comskip",
     "branch": "master",
     "type": "commit"
-  },
-  {
-    "app": "covid",
-    "repo": "pinksheetscrypto/covid-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "cryptodoge",
-    "repo": "CryptoDoge-Network/cryptodoge",
-    "branch": "main",
-    "type": "release"
   },
   {
     "app": "ffmpeg",
@@ -60,29 +12,11 @@
     "type": "commit"
   },
   {
-    "app": "flax",
-    "repo": "Flax-Network/flax-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "flora",
-    "repo": "Flora-Network/flora-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "hadolint",
     "repo": "hadolint/hadolint",
     "branch": "master",
     "type": "commit"
   },
- {
-    "app": "hddcoin",
-    "repo": "HDDcoin-Network/hddcoin-blockchain",
-    "branch": "master",
-    "type": "release"
-},
  {
     "app": "jellyfin",
     "repo": "jellyfin/jellyfin",
@@ -120,29 +54,11 @@
     "type": "commit"
 },
   {
-    "app": "madmax",
-    "repo": "madMAx43v3r/chia-plotter",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
-    "app": "maize",
-    "repo": "Maize-Network/maize-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
     "type": "commit"
    },
-   {
-    "app": "pipscoin",
-    "repo": "Pipscoin-Network/pipscoin-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
   {
     "app": "qbittorrent",
     "repo": "qbittorrent/qBittorrent",
@@ -166,36 +82,6 @@
     "repo": "koalaman/shellcheck",
     "branch": "master",
     "type": "commit"
-  },
-  {
-    "app": "silicoin",
-    "repo": "silicoin-network/silicoin-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "sparecoin",
-    "repo": "Spare-Network/spare-blockchain",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
-    "app": "stor",
-    "repo": "Stor-Network/stor-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "taco",
-    "repo": "Taco-Network/taco-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
-    "app": "tad",
-    "repo": "Tad-Network/tad-blockchain",
-    "branch": "main",
-    "type": "release"
   },
   {
     "app": "upx",
