@@ -14,6 +14,7 @@ lotus \
 lucky \
 maize \
 mint \
+mogua \
 nchain \
 pipscoin \
 silicoin \
