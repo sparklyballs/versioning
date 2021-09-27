@@ -136,5 +136,11 @@
     "repo": "Tad-Network/tad-blockchain",
     "branch": "main",
     "type": "release"
+  },
+  {
+    "app": "tranzact",
+    "repo": "Tranzact-Network/tranzact-blockchain",
+    "branch": "main",
+    "type": "release"
   }
 ]
