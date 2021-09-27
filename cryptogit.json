@@ -60,6 +60,24 @@
     "type": "release"
 },
   {
+    "app": "kiwi",
+    "repo": "KiwiNetworkOrg/kiwi-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
+    "app": "lotus",
+    "repo": "gowke/lotus-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+  {
+    "app": "lucky",
+    "repo": "dream80/lucky-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "madmax",
     "repo": "madMAx43v3r/chia-plotter",
     "branch": "master",
@@ -74,6 +92,12 @@
   {
     "app": "mint",
     "repo": "MintNetwork/mint-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
+    "app": "mogua",
+    "repo": "mogua-network/mogua-blockchain",
     "branch": "main",
     "type": "release"
   },
