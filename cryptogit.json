@@ -9,7 +9,7 @@
     "app": "chaingreen",
     "repo": "ChainGreenOrg/chaingreen-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "chia_block",
