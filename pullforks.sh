@@ -2,6 +2,7 @@
 
 declare -a FORKLIST="\
 beer \
+chaingreen \
 chiarose \
 chives \
 covid \

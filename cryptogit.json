@@ -1,11 +1,5 @@
 [
   {
-    "app": "mint",
-    "repo": "MintNetwork/mint-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "beer",
     "repo": "Beer-Network/beer-blockchain",
     "branch": "main",
@@ -76,6 +70,12 @@
     "repo": "Maize-Network/maize-blockchain",
     "branch": "main",
     "type": "commit"
+  },
+  {
+    "app": "mint",
+    "repo": "MintNetwork/mint-blockchain",
+    "branch": "main",
+    "type": "release"
   },
    {
     "app": "pipscoin",
