@@ -3,7 +3,7 @@
     "app": "beer",
     "repo": "Beer-Network/beer-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "chaingreen",
