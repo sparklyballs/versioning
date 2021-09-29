@@ -86,8 +86,8 @@
   {
     "app": "maize",
     "repo": "Maize-Network/maize-blockchain",
-    "branch": "release",
-    "type": "commit"
+    "branch": "main",
+    "type": "release"
   },
   {
     "app": "mint",
