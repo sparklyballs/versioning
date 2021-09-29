@@ -129,7 +129,7 @@
     "app": "taco",
     "repo": "Taco-Network/taco-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "tad",
