@@ -5,6 +5,12 @@
     "branch": "main",
     "type": "release"
   },
+    {
+    "app": "beet",
+    "repo": "beetseeds/beet-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
   {
     "app": "chaingreen",
     "repo": "ChainGreenOrg/chaingreen-blockchain",
