@@ -127,7 +127,7 @@
   },
   {
     "app": "stai",
-    "repo": "STATION-I/STAI-blockchain",
+    "repo": "STATION-I/staicoin-blockchain",
     "branch": "main",
     "type": "release"
   },
