@@ -126,6 +126,12 @@
     "type": "commit"
   },
   {
+    "app": "stai",
+    "repo": "STATION-I/STAI-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "stor",
     "repo": "Stor-Network/stor-blockchain",
     "branch": "main",
