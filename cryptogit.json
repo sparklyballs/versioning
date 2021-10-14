@@ -96,6 +96,12 @@
     "type": "release"
   },
   {
+    "app": "melon",
+    "repo": "mELON-Network/melon-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "mint",
     "repo": "MintNetwork/mint-blockchain",
     "branch": "main",
