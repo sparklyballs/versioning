@@ -72,6 +72,12 @@
     "type": "commit"
   },
   {
+    "app": "kujenga",
+    "repo": "Kujenga-Network/kujenga-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "lotus",
     "repo": "gowke/lotus-blockchain",
     "branch": "main",
