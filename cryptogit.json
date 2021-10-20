@@ -24,6 +24,12 @@
     "type": "release"
   },
   {
+    "app": "chiadog",
+    "repo": "martomi/chiadog",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "chiarose",
     "repo": "snight1983/chia-rosechain",
     "branch": "master",
