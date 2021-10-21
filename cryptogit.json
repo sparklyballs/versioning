@@ -172,5 +172,11 @@
     "repo": "Tranzact-Network/tranzact-blockchain",
     "branch": "main",
     "type": "release"
+  },
+  {
+    "app": "venidium",
+    "repo": "Venidium-Network/venidium-blockchain",
+    "branch": "main",
+    "type": "release"
   }
 ]
