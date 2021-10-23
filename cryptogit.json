@@ -1,5 +1,11 @@
 [
   {
+    "app": "aedge",
+    "repo": "aedgecoin/aedge-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "beer",
     "repo": "Beer-Network/beer-blockchain",
     "branch": "main",
