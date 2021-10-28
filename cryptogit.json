@@ -17,6 +17,12 @@
     "branch": "main",
     "type": "release"
   },
+    {
+    "app": "btcgreen",
+    "repo": "BTCgreen-Network/btcgreen-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
   {
     "app": "chaingreen",
     "repo": "ChainGreenOrg/chaingreen-blockchain",
@@ -71,12 +77,18 @@
     "branch": "main",
     "type": "release"
   },
+  {
+    "app": "greendoge",
+    "repo": "GreenDoge-Network/greendoge-blockchain",
+    "branch": "main",
+    "type": "release"
+ },
  {
     "app": "hddcoin",
     "repo": "HDDcoin-Network/hddcoin-blockchain",
     "branch": "master",
     "type": "release"
-},
+  },
   {
     "app": "kiwi",
     "repo": "KiwiNetworkOrg/kiwi-blockchain",
