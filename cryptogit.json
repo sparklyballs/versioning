@@ -156,6 +156,12 @@
     "type": "release"
   },
   {
+    "app": "skynet",
+    "repo": "SkynetNetwork/skynet-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "sparecoin",
     "repo": "Spare-Network/spare-blockchain",
     "branch": "master",
