@@ -150,6 +150,12 @@
     "type": "release"
   },
   {
+    "app": "shibgreen",
+    "repo": "BTCgreen-Network/shibgreen-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "silicoin",
     "repo": "silicoin-network/silicoin-blockchain",
     "branch": "main",
