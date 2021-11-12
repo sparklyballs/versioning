@@ -150,6 +150,12 @@
     "type": "release"
   },
    {
+    "app": "pecanrolls",
+    "repo": "strandedathome/rolls-blockchain",
+    "branch": "main",
+    "type": "commit"
+  },
+   {
     "app": "pipscoin",
     "repo": "Pipscoin-Network/pipscoin-blockchain",
     "branch": "main",
