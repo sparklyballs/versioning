@@ -27,7 +27,7 @@
     "app": "cactus",
     "repo": "Cactus-Network/cactus-blockchain",
     "branch": "main",
-    "type": "commit"
+    "type": "release"
   },
   {
     "app": "chaingreen",
