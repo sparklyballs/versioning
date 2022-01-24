@@ -108,6 +108,12 @@
     "type": "release"
   },
   {
+    "app": "littlelambocoin",
+    "repo": "BTCgreen-Network/littlelambocoin-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "lotus",
     "repo": "gowke/lotus-blockchain",
     "branch": "main",
