@@ -23,6 +23,12 @@
     "branch": "main",
     "type": "release"
   },
+    {
+    "app": "bpx",
+    "repo": "bpx-network/bpx-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
   {
     "app": "cactus",
     "repo": "Cactus-Network/cactus-blockchain",
