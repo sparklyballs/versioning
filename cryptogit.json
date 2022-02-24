@@ -90,6 +90,12 @@
     "type": "release"
   },
   {
+    "app": "gold",
+    "repo": "goldcoin-gl/gold-blockchain",
+    "branch": "main",
+    "type": "release"
+ },
+  {
     "app": "greendoge",
     "repo": "GreenDoge-Network/greendoge-blockchain",
     "branch": "main",
