@@ -90,6 +90,12 @@
     "type": "release"
   },
   {
+    "app": "forkboard",
+    "repo": "aaroncarpenter/fork-board",
+    "branch": "main",
+    "type": "release"
+ },
+  {
     "app": "gold",
     "repo": "goldcoin-gl/gold-blockchain",
     "branch": "main",
