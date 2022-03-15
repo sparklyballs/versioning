@@ -186,6 +186,12 @@
     "type": "release"
   },
   {
+    "app": "profit",
+    "repo": "ProfitCrypto/profit-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "shibgreen",
     "repo": "BTCgreen-Network/shibgreen-blockchain",
     "branch": "main",
