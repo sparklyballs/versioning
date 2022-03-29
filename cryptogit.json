@@ -78,6 +78,18 @@
     "type": "release"
   },
   {
+    "app": "ecostake",
+    "repo": "Ecostake-Network/ecostake-blockchain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
+    "app": "ethgreen",
+    "repo": "ethgreen/ethgreen-blockchain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "flax",
     "repo": "Flax-Network/flax-blockchain",
     "branch": "master",
