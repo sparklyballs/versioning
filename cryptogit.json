@@ -192,6 +192,12 @@
     "type": "release"
   },
    {
+    "app": "petroleum",
+    "repo": "Petroleum-Network/petroleum-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+   {
     "app": "pipscoin",
     "repo": "Pipscoin-Network/pipscoin-blockchain",
     "branch": "main",
