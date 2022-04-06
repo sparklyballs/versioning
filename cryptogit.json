@@ -60,6 +60,12 @@
     "type": "release"
   },
   {
+    "app": "chinilla",
+    "repo": "chinilla/chinilla-blockchain",
+    "branch": "master",
+    "type": "release"
+  },
+  {
     "app": "chives",
     "repo": "HiveProject2021/chives-blockchain",
     "branch": "master",
