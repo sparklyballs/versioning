@@ -5,15 +5,9 @@
     "branch": "main",
     "type": "release"
   },
-  {
-    "app": "beer",
-    "repo": "Beer-Network/beer-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
     {
-    "app": "beet",
-    "repo": "beetseeds/beet-blockchain",
+    "app": "bpx",
+    "repo": "bpx-network/bpx-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -23,21 +17,9 @@
     "branch": "main",
     "type": "release"
   },
-    {
-    "app": "bpx",
-    "repo": "bpx-network/bpx-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
   {
     "app": "cactus",
     "repo": "Cactus-Network/cactus-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "chaingreen",
-    "repo": "ChainGreenOrg/chaingreen-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -54,12 +36,6 @@
     "type": "release"
   },
   {
-    "app": "chiarose",
-    "repo": "snight1983/chia-rosechain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
     "app": "chinilla",
     "repo": "chinilla/chinilla-blockchain",
     "branch": "master",
@@ -69,12 +45,6 @@
     "app": "chives",
     "repo": "HiveProject2021/chives-blockchain",
     "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "covid",
-    "repo": "pinksheetscrypto/covid-blockchain",
-    "branch": "main",
     "type": "release"
   },
   {
@@ -132,18 +102,6 @@
     "type": "release"
   },
   {
-    "app": "kiwi",
-    "repo": "KiwiNetworkOrg/kiwi-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
-    "app": "kujenga",
-    "repo": "Kujenga-Network/kujenga-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "littlelambocoin",
     "repo": "BTCgreen-Network/littlelambocoin-blockchain",
     "branch": "main",
@@ -170,12 +128,6 @@
   {
     "app": "maize",
     "repo": "Maize-Network/maize-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "melon",
-    "repo": "mELON-Network/melon-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -234,12 +186,6 @@
     "type": "release"
   },
   {
-    "app": "sparecoin",
-    "repo": "Spare-Network/spare-blockchain",
-    "branch": "master",
-    "type": "commit"
-  },
-  {
     "app": "stai",
     "repo": "STATION-I/stai-blockchain",
     "branch": "main",
@@ -254,12 +200,6 @@
   {
     "app": "taco",
     "repo": "Taco-Network/taco-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "tad",
-    "repo": "Tad-Network/tad-blockchain",
     "branch": "main",
     "type": "release"
   },
