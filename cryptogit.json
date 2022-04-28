@@ -101,6 +101,12 @@
     "branch": "master",
     "type": "release"
   },
+ {
+    "app": "joker",
+    "repo": "joker-network/joker-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
   {
     "app": "littlelambocoin",
     "repo": "BTCgreen-Network/littlelambocoin-blockchain",
