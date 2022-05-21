@@ -137,12 +137,6 @@
     "branch": "main",
     "type": "release"
   },
-  {
-    "app": "mogua",
-    "repo": "mogua-network/mogua-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
    {
     "app": "pecanrolls",
     "repo": "strandedathome/rolls-blockchain",
