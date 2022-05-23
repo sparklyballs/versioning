@@ -1,25 +1,7 @@
 [
-  {
-    "app": "aedge",
-    "repo": "aedgecoin/aedge-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-    {
-    "app": "bpx",
-    "repo": "bpx-network/bpx-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
     {
     "app": "btcgreen",
     "repo": "BTCgreen-Network/btcgreen-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "cactus",
-    "repo": "Cactus-Network/cactus-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -48,20 +30,8 @@
     "type": "release"
   },
   {
-    "app": "cryptodoge",
-    "repo": "CryptoDoge-Network/cryptodoge",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "ecostake",
     "repo": "Ecostake-Network/ecostake-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "ethgreen",
-    "repo": "ethgreen/ethgreen-blockchain",
     "branch": "master",
     "type": "release"
   },
@@ -108,12 +78,6 @@
     "type": "release"
   },
   {
-    "app": "lotus",
-    "repo": "gowke/lotus-blockchain",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
     "app": "lucky",
     "repo": "dream80/lucky-blockchain",
     "branch": "main",
@@ -138,20 +102,8 @@
     "type": "release"
   },
    {
-    "app": "pecanrolls",
-    "repo": "strandedathome/rolls-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-   {
     "app": "petroleum",
     "repo": "Petroleum-Network/petroleum-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-   {
-    "app": "pipscoin",
-    "repo": "Pipscoin-Network/pipscoin-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -162,20 +114,8 @@
     "type": "release"
   },
   {
-    "app": "shibgreen",
-    "repo": "BTCgreen-Network/shibgreen-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "silicoin",
     "repo": "silicoin-network/silicoin-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "skynet",
-    "repo": "SkynetNetwork/skynet-blockchain",
     "branch": "main",
     "type": "release"
   },
@@ -188,18 +128,6 @@
   {
     "app": "stor",
     "repo": "Stor-Network/stor-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "taco",
-    "repo": "Taco-Network/taco-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "tranzact",
-    "repo": "Tranzact-Network/tranzact-blockchain",
     "branch": "main",
     "type": "release"
   },
