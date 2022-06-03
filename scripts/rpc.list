@@ -1,0 +1,86 @@
+[
+    {
+    "coin_name": "btcgreen",
+    "port_addr": "18942"
+  },
+    {
+    "coin_name": "chia",
+    "port_addr": "8555"
+  },
+    {
+    "coin_name": "chinilla",
+    "port_addr": "43555"
+  },
+    {
+    "coin_name": "chives",
+    "port_addr": "9755"
+  },
+    {
+    "coin_name": "ecostake",
+    "port_addr": "38554"
+  },
+    {
+    "coin_name": "flax",
+    "port_addr": "6755"
+  },
+    {
+    "coin_name": "flora",
+    "port_addr": "18755"
+  },
+    {
+    "coin_name": "gold",
+    "port_addr": "14555"
+  },
+    {
+    "coin_name": "greendoge",
+    "port_addr": "6655"
+  },
+    {
+    "coin_name": "hddcoin",
+    "port_addr": "28555"
+  },
+    {
+    "coin_name": "littlelambocoin",
+    "port_addr": "18714"
+  },
+    {
+    "coin_name": "lucky",
+    "port_addr": "16655"
+  },
+    {
+    "coin_name": "maize",
+    "port_addr": "8655"
+  },
+    {
+    "coin_name": "mint",
+    "port_addr": "29333"
+  },
+    {
+    "coin_name": "nchain",
+    "port_addr": "38555"
+  },
+    {
+    "coin_name": "petroleum",
+    "port_addr": "33377"
+  },
+    {
+    "coin_name": "profit",
+    "port_addr": "48555"
+  },
+    {
+    "coin_name": "silicoin",
+    "port_addr": "22555"
+  },
+    {
+    "coin_name": "stai",
+    "port_addr": "1758"
+  },
+    {
+    "coin_name": "stor",
+    "port_addr": "8155"
+  },
+    {
+    "coin_name": "venidium",
+    "port_addr": "5855"
+  }
+]
