@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# set variables
+path_root="/mnt/user/appdata"
+path_rpc="/boot/config/myscripts/rpc.list"
+re='^[0-9]+$'
+divisor="1000000000000"
+precision="12"
+
+# read parameters from rpc list file
+jq -M -r '
+    .[] | .coin_name, .wallet_addr
+' < "${path_rpc}" | \
+
+while read -r coin_name; read -r wallet_addr;do
+
+case "${coin_name}" in
+	nchain)
+	config_path="ext9" ;;
+	*)
+	config_path="mainnet" ;;
+esac ;
+
+if ! [[ $wallet_addr =~ $re ]] ; then
+:
+else
+
+rpc_balance=$(curl --silent --insecure \
+--cert "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.crt" \
+--key "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.key" \
+-d '{"wallet_id": 1}' -H "Content-Type: application/json" \
+-X POST "https://localhost:${wallet_addr}/get_wallet_balance" \
+| jq '.wallet_balance.spendable_balance');
+
+balance=$(awk "BEGIN {printf \"%.${precision}f\n\", ${rpc_balance}/${divisor}}" | sed '/\./ s/\.\{0,1\}0\{1,\}$//')
+
+echo "${coin_name} Spendable balance: ${balance}"
+fi
+done

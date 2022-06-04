@@ -17,7 +17,8 @@
   },
     {
     "coin_name": "ecostake",
-    "port_addr": "38554"
+    "port_addr": "38554",
+    "wallet_addr": "35256"
   },
     {
     "coin_name": "flax",
@@ -29,7 +30,8 @@
   },
     {
     "coin_name": "gold",
-    "port_addr": "14555"
+    "port_addr": "14555",
+    "wallet_addr": "14256"
   },
     {
     "coin_name": "greendoge",
@@ -61,15 +63,18 @@
   },
     {
     "coin_name": "petroleum",
-    "port_addr": "33377"
+    "port_addr": "33377",
+    "wallet_addr": "33356"
   },
     {
     "coin_name": "profit",
-    "port_addr": "48555"
+    "port_addr": "48555",
+    "wallet_addr": "49256"
   },
     {
     "coin_name": "silicoin",
-    "port_addr": "22555"
+    "port_addr": "22555",
+    "wallet_addr": "22256"
   },
     {
     "coin_name": "stai",
