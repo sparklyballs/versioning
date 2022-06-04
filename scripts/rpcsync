@@ -11,10 +11,11 @@ jq -M -r '
 
 while read -r coin_name; read -r port_addr;do
 
-config_path=mainnet ;
 case "${coin_name}" in
 	nchain)
 	config_path="ext9" ;;
+	*)
+	config_path="mainnet" ;;
 esac ;
 
 sync_state=$(curl --silent --insecure \
