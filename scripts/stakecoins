@@ -3,7 +3,6 @@
 # set variables
 path_root="/mnt/user/appdata"
 path_rpc="/boot/config/myscripts/rpc.list"
-re='^[0-9]+$'
 divisor="1000000000000"
 precision="12"
 
@@ -21,9 +20,9 @@ case "${coin_name}" in
 	config_path="mainnet" ;;
 esac ;
 
-if ! [[ $wallet_addr =~ $re ]] ; then
-:
-else
+# match coin names for operation
+case "${coin_name}" in
+	ecostake|gold|profit|petroleum|silicoin)
 
 rpc_balance=$(curl --silent --insecure \
 --cert "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.crt" \
@@ -34,6 +33,10 @@ rpc_balance=$(curl --silent --insecure \
 
 balance=$(awk "BEGIN {printf \"%.${precision}f\n\", ${rpc_balance}/${divisor}}" | sed '/\./ s/\.\{0,1\}0\{1,\}$//')
 
-echo "${coin_name} Spendable balance: ${balance}"
-fi
+echo "${coin_name} Spendable balance: ${balance}";;
+
+# no op for match coin names
+*)
+: ;;
+esac ;
 done
