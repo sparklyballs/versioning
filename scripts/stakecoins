@@ -8,10 +8,10 @@ precision="12"
 
 # read parameters from rpc list file
 jq -M -r '
-    .[] | .coin_name, .wallet_addr
+    .[] | .coin_name, .wallet_port
 ' < "${path_rpc}" | \
 
-while read -r coin_name; read -r wallet_addr;do
+while read -r coin_name; read -r wallet_port;do
 
 case "${coin_name}" in
 	nchain)
@@ -28,7 +28,7 @@ rpc_balance=$(curl --silent --insecure \
 --cert "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.crt" \
 --key "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.key" \
 -d '{"wallet_id": 1}' -H "Content-Type: application/json" \
--X POST "https://localhost:${wallet_addr}/get_wallet_balance" \
+-X POST "https://localhost:${wallet_port}/get_wallet_balance" \
 | jq '.wallet_balance.spendable_balance');
 
 balance=$(awk "BEGIN {printf \"%.${precision}f\n\", ${rpc_balance}/${divisor}}" | sed '/\./ s/\.\{0,1\}0\{1,\}$//')

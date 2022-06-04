@@ -1,91 +1,107 @@
 [
     {
     "coin_name": "btcgreen",
-    "port_addr": "18942"
+    "fullnode_port": "18942",
+    "wallet_port": "19544"
   },
     {
     "coin_name": "chia",
-    "port_addr": "8555"
+    "fullnode_port": "8555",
+    "wallet_port": "9256"
   },
     {
     "coin_name": "chinilla",
-    "port_addr": "43555"
+    "fullnode_port": "43555",
+    "wallet_port": "42556"
   },
     {
     "coin_name": "chives",
-    "port_addr": "9755"
+    "fullnode_port": "9755",
+    "wallet_port": "9856"
   },
     {
     "coin_name": "ecostake",
-    "port_addr": "38554",
-    "wallet_addr": "35256"
+    "fullnode_port": "38554",
+    "wallet_port": "35256"
   },
     {
     "coin_name": "flax",
-    "port_addr": "6755"
+    "fullnode_port": "6755",
+    "wallet_port": "6761"
   },
     {
     "coin_name": "flora",
-    "port_addr": "18755"
+    "fullnode_port": "18755",
+    "wallet_port": "19456"
   },
     {
     "coin_name": "gold",
-    "port_addr": "14555",
-    "wallet_addr": "14256"
+    "fullnode_port": "14555",
+    "wallet_port": "14256"
   },
     {
     "coin_name": "greendoge",
-    "port_addr": "6655"
+    "fullnode_port": "6655",
+    "wallet_port": "7356"
   },
     {
     "coin_name": "hddcoin",
-    "port_addr": "28555"
+    "fullnode_port": "28555",
+    "wallet_port": "29256"
   },
     {
     "coin_name": "littlelambocoin",
-    "port_addr": "18714"
+    "fullnode_port": "18714",
+    "wallet_port": "19678"
   },
     {
     "coin_name": "lucky",
-    "port_addr": "16655"
+    "fullnode_port": "16655",
+    "wallet_port": "16656"
   },
     {
     "coin_name": "maize",
-    "port_addr": "8655"
+    "fullnode_port": "8655",
+    "wallet_port": "8656"
   },
     {
     "coin_name": "mint",
-    "port_addr": "29333"
+    "fullnode_port": "29333",
+    "wallet_port": "29556"
   },
     {
     "coin_name": "nchain",
-    "port_addr": "38555"
+    "fullnode_port": "38555",
+    "wallet_port": "39256"
   },
     {
     "coin_name": "petroleum",
-    "port_addr": "33377",
-    "wallet_addr": "33356"
+    "fullnode_port": "33377",
+    "wallet_port": "33356"
   },
     {
     "coin_name": "profit",
-    "port_addr": "48555",
-    "wallet_addr": "49256"
+    "fullnode_port": "48555",
+    "wallet_port": "49256"
   },
     {
     "coin_name": "silicoin",
-    "port_addr": "22555",
-    "wallet_addr": "22256"
+    "fullnode_port": "22555",
+    "wallet_port": "22256"
   },
     {
     "coin_name": "stai",
-    "port_addr": "1758"
+    "fullnode_port": "1758",
+    "wallet_port": "1736"
   },
     {
     "coin_name": "stor",
-    "port_addr": "8155"
+    "fullnode_port": "8155",
+    "wallet_port": "9236"
   },
     {
     "coin_name": "venidium",
-    "port_addr": "5855"
+    "fullnode_port": "5855",
+    "wallet_port": "6556"
   }
 ]

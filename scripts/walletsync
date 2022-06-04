@@ -3,13 +3,14 @@
 # set variables
 path_root="/mnt/user/appdata"
 path_rpc="/boot/config/myscripts/rpc.list"
+re='^[0-9]+$'
 
 # read parameters from rpc list file
 jq -M -r '
-    .[] | .coin_name, .fullnode_port
+    .[] | .coin_name, .wallet_port
 ' < "${path_rpc}" | \
 
-while read -r coin_name; read -r fullnode_port;do
+while read -r coin_name; read -r wallet_port;do
 
 case "${coin_name}" in
 	nchain)
@@ -18,19 +19,24 @@ case "${coin_name}" in
 	config_path="mainnet" ;;
 esac ;
 
-sync_state=$(curl --silent --insecure \
+if ! [[ $wallet_port =~ $re ]] ; then
+:
+else
+
+wallet_sync=$(curl --silent --insecure \
 --cert "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.crt" \
 --key "${path_root}/${coin_name}/${config_path}/config/ssl/full_node/private_full_node.key" \
--d '{}' -H "Content-Type: application/json" \
--X POST "https://localhost:${fullnode_port}/get_blockchain_state" \
-| jq '.blockchain_state.sync.synced');
+-d '{"wallet_id": 1}' -H "Content-Type: application/json" \
+-X POST "https://localhost:${wallet_port}/get_sync_status" \
+| jq '.synced');
 
-case "${sync_state}" in
+case "${wallet_sync}" in
         false)
         output_colour="1" ;; # output red
         true)
         output_colour="2" ;; # output green
 esac ;
 
-echo "$(tput sgr0) ${coin_name} Current Blockchain Status: Full Node Synced $(tput setaf $output_colour)${sync_state}"
+echo "$(tput sgr0) ${coin_name} Wallet Synced: $(tput setaf $output_colour)${wallet_sync}"
+fi
 done
