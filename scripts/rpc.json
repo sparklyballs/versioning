@@ -12,7 +12,7 @@
     {
     "coin_name": "chinilla",
     "fullnode_port": "43555",
-    "wallet_port": "42556"
+    "wallet_port": "42256"
   },
     {
     "coin_name": "chives",
