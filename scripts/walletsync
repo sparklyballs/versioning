@@ -2,10 +2,10 @@
 
 # set variables
 path_root="/mnt/user/appdata"
-path_rpc="/boot/config/myscripts/rpc.list"
+path_rpc="/boot/config/myscripts/rpc.json"
 re='^[0-9]+$'
 
-# read parameters from rpc list file
+# read parameters from rpc.json file
 jq -M -r '
     .[] | .coin_name, .wallet_port
 ' < "${path_rpc}" | \

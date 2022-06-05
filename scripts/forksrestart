@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# set variables
+path_root="/mnt/user/appdata"
+path_rpc="/boot/config/myscripts/rpc.json"
+
+# read parameters from rpc.json file
+jq -M -r '
+    .[] | .coin_name
+' < "${path_rpc}" | \
+
+while read -r coin_name;do
+
+docker restart "${coin_name}"
+done
