@@ -26,10 +26,11 @@ sync_state=$(curl --silent --insecure \
 | jq '.blockchain_state.sync.synced');
 
 case "${sync_state}" in
-        false)
-        output_colour="1" ;; # output red
-        true)
+	true)
         output_colour="2" ;; # output green
+        *)
+        sync_state="false";
+        output_colour="1" ;; # output red
 esac ;
 
 echo "$(tput sgr0) ${coin_name} Current Blockchain Status: Full Node Synced $(tput setaf $output_colour)${sync_state}"

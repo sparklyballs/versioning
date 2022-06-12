@@ -31,10 +31,11 @@ wallet_sync=$(curl --silent --insecure \
 | jq '.synced');
 
 case "${wallet_sync}" in
-        false)
-        output_colour="1" ;; # output red
-        true)
+	true)
         output_colour="2" ;; # output green
+        *)
+        wallet_sync="false";
+        output_colour="1" ;; # output red
 esac ;
 
 echo "$(tput sgr0) ${coin_name} Wallet Synced: $(tput setaf $output_colour)${wallet_sync}"

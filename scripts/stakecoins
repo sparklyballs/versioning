@@ -31,6 +31,8 @@ rpc_balance=$(curl --silent --insecure \
 -X POST "https://localhost:${wallet_port}/get_wallet_balance" \
 | jq '.wallet_balance.spendable_balance');
 
+[[ "${rpc_balance}" == ?(-)+([[:digit:]]) ]] || rpc_balance="0"
+
 balance=$(awk "BEGIN {printf \"%.${precision}f\n\", ${rpc_balance}/${divisor}}" | sed '/\./ s/\.\{0,1\}0\{1,\}$//')
 
 echo "${coin_name} Spendable balance: ${balance}";;
