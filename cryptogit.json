@@ -6,7 +6,7 @@
     "type": "release"
   },
   {
-    "app": "chia_block",
+    "app": "chia",
     "repo": "Chia-Network/chia-blockchain",
     "branch": "master",
     "type": "release"
@@ -59,12 +59,6 @@
     "branch": "main",
     "type": "release"
  },
-  {
-    "app": "greendoge",
-    "repo": "GreenDoge-Network/greendoge-blockchain",
-    "branch": "main",
-    "type": "release"
- },
  {
     "app": "hddcoin",
     "repo": "HDDcoin-Network/hddcoin-blockchain",
@@ -76,18 +70,6 @@
     "repo": "BTCgreen-Network/littlelambocoin-blockchain",
     "branch": "main",
     "type": "release"
-  },
-  {
-    "app": "lucky",
-    "repo": "dream80/lucky-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "madmax",
-    "repo": "madMAx43v3r/chia-plotter",
-    "branch": "master",
-    "type": "commit"
   },
   {
     "app": "maize",

@@ -1,28 +1,26 @@
 #!/bin/bash
 
 declare -a FORKLIST="\
-beer \
-chaingreen \
-chiarose \
+btcgreen \
+chia \
+chinilla \
 chives \
-covid \
-cryptodoge \
+ecostake \
 flax \
 flora \
+gold \
 hddcoin \
-kiwi \
-lotus \
-lucky \
+littlelambocoin \
 maize \
 mint \
-mogua \
 nchain \
-pipscoin \
+petroleum \
+profit \
 silicoin \
-sparecoin \
-stor \
-taco \
-tad"
+stai \
+stor  \
+venidium \
+"
 
 for fork in ${FORKLIST[@]} ; do
 git clone "git@github.com:sparklyballs/${fork}test.git"
