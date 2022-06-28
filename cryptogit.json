@@ -18,12 +18,6 @@
     "type": "release"
   },
   {
-    "app": "chinilla",
-    "repo": "chinilla/chinilla-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
     "app": "chives",
     "repo": "HiveProject2021/chives-blockchain",
     "branch": "master",
@@ -110,12 +104,6 @@
   {
     "app": "stor",
     "repo": "Stor-Network/stor-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "venidium",
-    "repo": "Venidium-Network/venidium-blockchain",
     "branch": "main",
     "type": "release"
   }
