@@ -90,12 +90,6 @@
     "type": "release"
   },
   {
-    "app": "silicoin",
-    "repo": "silicoin-network/silicoin-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "stai",
     "repo": "STATION-I/stai-blockchain",
     "branch": "main",
