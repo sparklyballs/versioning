@@ -42,12 +42,6 @@
     "type": "release"
   },
   {
-    "app": "flora",
-    "repo": "Flora-Network/flora-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
     "app": "forkboard",
     "repo": "aaroncarpenter/fork-board",
     "branch": "main",
@@ -98,12 +92,6 @@
   {
     "app": "stai",
     "repo": "STATION-I/stai-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "stor",
-    "repo": "Stor-Network/stor-blockchain",
     "branch": "main",
     "type": "release"
   }
