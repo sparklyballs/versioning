@@ -72,12 +72,6 @@
     "type": "release"
   },
   {
-    "app": "mint",
-    "repo": "MintNetwork/mint-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-   {
     "app": "petroleum",
     "repo": "Petroleum-Network/petroleum-blockchain",
     "branch": "main",
