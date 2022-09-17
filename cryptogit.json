@@ -6,12 +6,6 @@
     "type": "release"
   },
   {
-    "app": "cactus",
-    "repo": "Cactus-Network/cactus-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
     "app": "chia",
     "repo": "Chia-Network/chia-blockchain",
     "branch": "master",
