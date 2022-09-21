@@ -41,12 +41,6 @@
     "branch": "main",
     "type": "release"
  },
-  {
-    "app": "gold",
-    "repo": "goldcoin-gl/gold-blockchain",
-    "branch": "main",
-    "type": "release"
- },
  {
     "app": "hddcoin",
     "repo": "HDDcoin-Network/hddcoin-blockchain",
