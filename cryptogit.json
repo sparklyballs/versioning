@@ -60,6 +60,12 @@
     "type": "release"
   },
   {
+    "app": "moon",
+    "repo": "MOONCOINTEAM/moon-blockchain",
+    "branch": "main",
+    "type": "release"
+  },
+  {
     "app": "petroleum",
     "repo": "Petroleum-Network/petroleum-blockchain",
     "branch": "main",
