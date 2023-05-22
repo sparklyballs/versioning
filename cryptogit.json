@@ -1,10 +1,4 @@
 [
-    {
-    "app": "btcgreen",
-    "repo": "BTCgreen-Network/btcgreen-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
   {
     "app": "chia",
     "repo": "Chia-Network/chia-blockchain",
@@ -14,18 +8,6 @@
   {
     "app": "chiadog",
     "repo": "martomi/chiadog",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "chives",
-    "repo": "HiveProject2021/chives-blockchain",
-    "branch": "master",
-    "type": "release"
-  },
-  {
-    "app": "ecostake",
-    "repo": "Ecostake-Network/ecostake-blockchain",
     "branch": "master",
     "type": "release"
   },
@@ -50,24 +32,6 @@
   {
     "app": "littlelambocoin",
     "repo": "BTCgreen-Network/littlelambocoin-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "maize",
-    "repo": "Maize-Network/maize-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "moon",
-    "repo": "MOONCOINTEAM/moon-blockchain",
-    "branch": "main",
-    "type": "release"
-  },
-  {
-    "app": "profit",
-    "repo": "ProfitCrypto/profit-blockchain",
     "branch": "main",
     "type": "release"
   },
