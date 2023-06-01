@@ -50,12 +50,12 @@ fi
 if [[ -d "${WORKSPACE}"/root/etc/cont-init.d || -d "${WORKSPACE}"/root/etc/services.d || \
 -d "${WORKSPACE}"/init  || -d "${WORKSPACE}"/services ]];then
 
-docker pull sparklyballs/shellcheck
+docker pull koalaman/shellcheck-alpine
 
 docker run \
 	--rm=true -t \
 	${MOUNT_OPTIONS} \
-	sparklyballs/shellcheck \
+	koalaman/shellcheck-alpine \
 	find ${TEST_AREA} -type f -exec shellcheck ${SHELLCHECK_OPTIONS} {} + \
 	> ${WORKSPACE}/shellcheck-result.xml
 
