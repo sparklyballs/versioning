@@ -9,8 +9,9 @@ docker pull ghcr.io/hadolint/hadolint:latest
 SHELLCHECK_OPTIONS="--exclude=SC1008 --format=checkstyle --shell=bash"
 SHELLCHECK_EXCLUDES=( \
 "! -iname *.desktop" \
-"! -iname Dockerfile" \
+"! -iname dockerfile" \
 "! -iname jenkinsfile" \
+"! -iname license" \
 "! -iname *.json" \
 "! -iname *.list" \
 "! -iname *.md" \
