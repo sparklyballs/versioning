@@ -15,7 +15,7 @@ fi
 if [[ ! -d "${WORKSPACE}"/root/etc/cont-init.d  && ! -d "${WORKSPACE}"/root/etc/services.d ]] && \
 [[ -d "${WORKSPACE}"/init && -d "${WORKSPACE}"/services ]]; then
 SHELLCHECK_OPTIONS="--format=checkstyle --shell=bash"
-MOUNT_OPTIONS="-v ${WORKSPACE}/init:/init -v "${WORKSPACE}"/services:/services"
+MOUNT_OPTIONS="-v ${WORKSPACE}/init:/init -v ${WORKSPACE}/services:/services"
 TEST_AREA="init services"
 
 elif [[ ! -d "${WORKSPACE}"/root/etc/cont-init.d  && ! -d "${WORKSPACE}"/root/etc/services.d ]] && \
@@ -63,13 +63,6 @@ fi
 
 [[ ! -f ${WORKSPACE}/shellcheck-result.xml ]] && echo "<?xml version='1.0' encoding='UTF-8'?><checkstyle version='4.3'></checkstyle>" > ${WORKSPACE}/shellcheck-result.xml
 sed -i 's/&#45;/-/g' ${WORKSPACE}/shellcheck-result.xml
-
-# exit out gracefully without hadolint on armXX platforms
-if [[ "${NODE_LABELS}"  == *"ARM"* ]]; then
-exit 0
-else
-:
-fi
 
 docker pull ghcr.io/hadolint/hadolint
 
