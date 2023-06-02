@@ -12,7 +12,6 @@ SHELLCHECK_EXCLUDES=( \
 "! -iname Dockerfile" \
 "! -iname jenkinsfile" \
 "! -iname *.json" \
-"! -iname linting-script.sh" \
 "! -iname *.md" \
 "! -iname pkgbuild*" \
 "! -iname *.txt" \
