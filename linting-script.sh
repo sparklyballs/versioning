@@ -1,4 +1,5 @@
 #!/bin/bash
+# shellcheck disable=SC2068,SC2086
 
 # pull newest images needed for linting
 docker pull sparklyballs/shellcheck:latest
@@ -11,13 +12,13 @@ SHELLCHECK_EXCLUDES=( \
 "! -iname Dockerfile" \
 "! -iname jenkinsfile" \
 "! -iname *.json" \
+"! -iname linting-script.sh" \
 "! -iname *.md" \
 "! -iname pkgbuild*" \
 "! -iname *.txt" \
 "! -iname *.xml" \
 )
 
-# shellcheck disable=SC2068,SC2086
 docker run --rm=true -t \
 -v ${WORKSPACE}:/test sparklyballs/shellcheck:latest \
 find /test -type f ${SHELLCHECK_EXCLUDES[@]} -not -path '*/\.*' -exec shellcheck ${SHELLCHECK_OPTIONS} {} + \
