@@ -12,6 +12,12 @@
     "type": "release"
 },
  {
+    "app": "jellyseer",
+    "repo": "Fallenbagel/jellyseerr",
+    "branch": "main",
+    "type": "release"
+},
+ {
     "app": "jitsi",
     "repo": "jitsi/docker-jitsi-meet",
     "branch": "master",
