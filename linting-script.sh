@@ -3,7 +3,7 @@
 
 # pull newest images needed for linting
 docker pull sparklyballs/shellcheck:latest
-docker pull ghcr.io/hadolint/hadolint:latest
+docker pull sparklyballs/hadolint:latest
 
 # set variables/array
 HADOLINT_OPTIONS="--ignore DL3008 --ignore DL3013 --ignore DL3018 --ignore DL3028 --format json"
@@ -38,7 +38,7 @@ sed -i -e 's/&#45;/-/g' -e 's# >#>#g' -e 's# />#/>#g' -e 's#/test/##g' ${WORKSPA
 docker run \
 	--rm=true -t \
 	-v ${WORKSPACE}/Dockerfile:/Dockerfile \
-	ghcr.io/hadolint/hadolint:latest \
+	sparklyballs/hadolint:latest \
 	hadolint ${HADOLINT_OPTIONS} /Dockerfile > ${WORKSPACE}/hadolint-result.xml
 
 # exit gracefully
