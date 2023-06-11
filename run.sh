@@ -23,6 +23,11 @@ JQ_ARG=".[0].name"
 GIT_SUFFIX="tags"
 TYPE_SUFFIX="TAG"
 ;;
+"qbit")
+JQ_ARG=".[].name" | grep -v -e 'alpha' -e 'beta' -e 'rc' | head -n 1
+GIT_SUFFIX="tags"
+TYPE_SUFFIX="TAG"
+;;
 esac
 
 # get version of each app
