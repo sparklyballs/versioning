@@ -9,6 +9,7 @@ docker pull sparklyballs/hadolint:latest
 HADOLINT_OPTIONS="--ignore DL3008 --ignore DL3013 --ignore DL3018 --ignore DL3028 --format json"
 SHELLCHECK_OPTIONS="--exclude=SC1008 --format=checkstyle --shell=bash"
 SHELLCHECK_EXCLUDES=( \
+"! -iname *.conf" \
 "! -iname *.csv" \
 "! -iname *.dat" \
 "! -iname *.desktop" \
