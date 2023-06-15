@@ -8,14 +8,6 @@ while read -r app; read -r repo; read -r branch; read -r type ;do
 
 # set url elements and jq argument based on type
 case "$type" in
-"qbit")
-JQ_ARG=""".[].name" \
-	| grep -v -e 'alpha' -e 'beta' -e 'rc' \
-	| head -n 1""
-
-GIT_SUFFIX="releases/latest"
-TYPE_SUFFIX="RELEASE"
-;;
 "release")
 JQ_ARG=".tag_name"
 GIT_SUFFIX="releases/latest"
@@ -34,8 +26,18 @@ TYPE_SUFFIX="TAG"
 esac
 
 # get version of each app
+case "$app" in
+"qbittorrent")
+APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/qbittorrent/qBittorrent/tags" \
+	| jq -s '.[].name' \
+	| grep -v -e 'alpha' -e 'beta' -e 'rc' \
+	| head -n 1)
+;;
+*)
 APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
+;;
+esac
 
 # apply bash substitutions dependent on type
 case "$type" in
