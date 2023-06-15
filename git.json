@@ -51,7 +51,7 @@
     "app": "qbittorrent",
     "repo": "qbittorrent/qBittorrent",
     "branch": "master",
-    "type": "qbit"
+    "type": "tag"
    },
   {
     "app": "s6_overlay",
