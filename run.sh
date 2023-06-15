@@ -28,10 +28,10 @@ esac
 # get version of each app
 case "$app" in
 "qbittorrent")
-APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/qbittorrent/qBittorrent/tags" \
-	| jq -s '.[].name' \
+APP_RELEASE="$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/qbittorrent/qBittorrent/tags" \
+	| jq -r '.[].name' \
 	| grep -v -e 'alpha' -e 'beta' -e 'rc' \
-	| head -n 1)
+	| head -n 1)"
 ;;
 *)
 APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
