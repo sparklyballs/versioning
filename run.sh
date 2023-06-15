@@ -9,7 +9,7 @@ while read -r app; read -r repo; read -r branch; read -r type ;do
 # set url elements and jq argument based on type
 case "$type" in
 "qbit")
-JQ_ARG=\"'.[].name' | grep -v -e 'alpha' -e 'beta' -e 'rc' | head -n 1\"
+JQ_ARG=".[].name"
 GIT_SUFFIX="releases/latest"
 TYPE_SUFFIX="RELEASE"
 ;;
