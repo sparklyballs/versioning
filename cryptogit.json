@@ -8,8 +8,8 @@
   {
     "app": "chiadog",
     "repo": "martomi/chiadog",
-    "branch": "master",
-    "type": "release"
+    "branch": "main",
+    "type": "commit"
   },
   {
     "app": "flax",
