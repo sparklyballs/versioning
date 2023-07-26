@@ -5,54 +5,60 @@
     "branch": "master",
     "type": "commit"
   },
- {
+  {
     "app": "jellyfin",
     "repo": "jellyfin/jellyfin",
     "branch": "master",
     "type": "release"
-},
- {
+  },
+  {
     "app": "jellyseer",
     "repo": "Fallenbagel/jellyseerr",
     "branch": "main",
     "type": "release"
-},
- {
+  },
+  {
     "app": "jitsi",
     "repo": "jitsi/docker-jitsi-meet",
     "branch": "master",
     "type": "release"
-},
- {
+  },
+  {
     "app": "kodi",
     "repo": "xbmc/xbmc",
     "branch": "master",
     "type": "release"
-},
- {
+  },
+  {
     "app": "libreelec",
     "repo": "LibreELEC/LibreELEC.tv",
     "branch": "master",
     "type": "tag"
-},
-{
+  },
+  {
     "app": "libtorrent",
     "repo": "arvidn/libtorrent",
     "branch": "master",
     "type": "release"
-},
+  },
   {
     "app": "par2",
     "repo": "Parchive/par2cmdline",
     "branch": "master",
     "type": "commit"
-   },
+  },
+  {
+    "app": "picons",
+    "repo": "picons/picons",
+    "branch": "master",
+    "type": "release"
+  },
   {
     "app": "qbittorrent",
     "repo": "qbittorrent/qBittorrent",
     "branch": "master",
     "type": "tag"
-   },
+  },
   {
     "app": "s6_overlay",
     "repo": "just-containers/s6-overlay",
