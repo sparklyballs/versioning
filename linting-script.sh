@@ -21,6 +21,7 @@ SHELLCHECK_EXCLUDES=( \
 "! -iname *.md" \
 "! -iname pkgbuild*" \
 "! -iname *.py" \
+"! -iname *.png" \
 "! -iname *.txt" \
 "! -iname *.xml" \
 )
