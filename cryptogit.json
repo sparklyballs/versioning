@@ -6,12 +6,6 @@
     "type": "release"
   },
   {
-    "app": "chiadog",
-    "repo": "martomi/chiadog",
-    "branch": "main",
-    "type": "commit"
-  },
-  {
     "app": "flax",
     "repo": "Flax-Network/flax-blockchain",
     "branch": "master",
