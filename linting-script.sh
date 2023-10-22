@@ -33,7 +33,7 @@ docker run \
 	find /test -type f ${SHELLCHECK_EXCLUDES[@]} -not -path '*/\.*' -exec shellcheck ${SHELLCHECK_OPTIONS} {} + \
 	> ${WORKSPACE}/shellcheck-result.xml
 
-[[ ! -f ${WORKSPACE}/shellcheck-result.xml ]] && echo "<?xml version='1.0' encoding='UTF-8'?><checkstyle version='4.3'></checkstyle>" > ${WORKSPACE}/shellcheck-result.xml
+[[ ! -f ${WORKSPACE}/shellcheck-result.xml ]] && touch ${WORKSPACE}/shellcheck-result.xml
 sed -i -e 's/&#45;/-/g' -e 's# >#>#g' -e 's# />#/>#g' -e 's#/test/##g' ${WORKSPACE}/shellcheck-result.xml
 
 # run hadolint
