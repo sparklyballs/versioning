@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# set curl timeout parameters
+curl_max_time=5
+curl_retry=3
+curl_retry_delay=5
+
 # read parameters from git json file
 jq -M -r '
     .[] | .app, .repo, .branch, .type
@@ -28,13 +33,17 @@ esac
 # get version of each app
 case "$app" in
 "qbittorrent")
-APP_RELEASE="$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
+APP_RELEASE="$(curl -u "${SECRETUSER}:${SECRETPASS}" \
+--retry $curl_retry --retry-delay $curl_retry_delay --max-time $curl_max_time \
+-sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 	| jq -r '.[].name' \
 	| grep -v -e 'alpha' -e 'beta' -e 'rc' \
 	| head -n 1)"
 ;;
 *)
-APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
+APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" \
+--retry $curl_retry --retry-delay $curl_retry_delay --max-time $curl_max_time \
+-sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 ;;
 esac
@@ -101,7 +110,9 @@ SECURE_PARAM=""
 ;;
 esac
 
-APP_RELEASE=$(curl "${SECURE_PARAM}" -sX GET "${FETCH_URL}" | eval "${manip}")
+APP_RELEASE=$(curl "${SECURE_PARAM}" \
+--retry $curl_retry --retry-delay $curl_retry_delay --max-time $curl_max_time \
+-sX GET "${FETCH_URL}" | eval "${manip}")
 
 echo "${app^^}_RELEASE=${APP_RELEASE}"
 
