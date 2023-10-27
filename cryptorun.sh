@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# set curl timeout parameters
+curl_max_time=5
+curl_retry=3
+curl_retry_delay=5
+
 # read parameters from cryptogit json file
 jq -M -r '
     .[] | .app, .repo, .branch, .type
@@ -26,7 +31,9 @@ TYPE_SUFFIX="TAG"
 esac
 
 # get version of each app
-APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" -sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
+APP_RELEASE=$(curl -u "${SECRETUSER}:${SECRETPASS}" \
+--retry $curl_retry --retry-delay $curl_retry_delay --max-time $curl_max_time \
+-sX GET "https://api.github.com/repos/${repo}/${GIT_SUFFIX}" \
 		| jq -r "${JQ_ARG}")
 
 # apply bash substitutions dependent on type
