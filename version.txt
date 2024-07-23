@@ -1,17 +1,21 @@
-ALPINE_LINUX_RELEASE=3.20.2
+ALPINE_LINUX_RELEASE=
 DELUGE_RELEASE=
-HADOLINT_COMMIT=
-JELLYFIN_RELEASE=10.9.8
+HADOLINT_COMMIT=742b76e
+JELLYFIN_RELEASE=
 JELLYSEER_RELEASE=
-JITSI_RELEASE=
+JITSI_RELEASE=9584-1
+jq: parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 156, column 3
+jq: parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 1973, column 3
+jq: parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 74, column 3
+jq: parse error: Unfinished string at EOF at line 40, column 41510
 KODI_RELEASE=
 LIBREELEC_TAG=
-LIBTORRENT_RELEASE=2.0.10
-PAR2_RELEASE=1.1.1
+LIBTORRENT_RELEASE=
+PAR2_RELEASE=
 PICONS_RELEASE=
 QBITTORRENT_TAG=
 S6_OVERLAY_RELEASE=
 SABNZBD_RELEASE=
 SHELLCHECK_COMMIT=
 UNRAR_RELEASE=
-UPX_RELEASE=
+UPX_RELEASE=4.2.4
