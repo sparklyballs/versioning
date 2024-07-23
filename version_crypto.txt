@@ -2,5 +2,6 @@ CHIA_RELEASE=
 FLAX_RELEASE=
 FORKBOARD_RELEASE=
 HDDCOIN_RELEASE=
+jq: parse error: Invalid string: control characters from U+0000 through U+001F must be escaped at line 257, column 3
 LITTLELAMBOCOIN_RELEASE=
 STAI_RELEASE=
