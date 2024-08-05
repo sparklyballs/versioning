@@ -5,7 +5,7 @@ curl: try 'curl --help' or 'curl --manual' for more information
 curl: try 'curl --help' or 'curl --manual' for more information
 DELUGE_RELEASE=
 HADOLINT_COMMIT=742b76e
-JELLYFIN_RELEASE=10.9.8
+JELLYFIN_RELEASE=10.9.9
 JELLYSEER_RELEASE=1.9.2
 JITSI_RELEASE=9584-1
 KODI_RELEASE=21.0-Omega
