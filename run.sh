@@ -106,11 +106,11 @@ case "$app" in
 SECURE_PARAM="--insecure"
 ;;
 *)
-SECURE_PARAM=""
+unset SECURE_PARAM
 ;;
 esac
 
-APP_RELEASE=$(curl "${SECURE_PARAM}" \
+APP_RELEASE=$(curl ${SECURE_PARAM} \
 --retry $curl_retry --retry-delay $curl_retry_delay --max-time $curl_max_time \
 -sX GET "${FETCH_URL}" | eval "${manip}")
 
