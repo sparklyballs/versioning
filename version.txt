@@ -1,8 +1,4 @@
-ALPINE_LINUX_RELEASE=
-curl: option : blank argument where content is expected
-curl: option : blank argument where content is expected
-curl: try 'curl --help' or 'curl --manual' for more information
-curl: try 'curl --help' or 'curl --manual' for more information
+ALPINE_LINUX_RELEASE=3.20.2
 DELUGE_RELEASE=
 HADOLINT_COMMIT=742b76e
 JELLYFIN_RELEASE=10.9.9
@@ -17,5 +13,5 @@ QBITTORRENT_TAG=4.6.6
 S6_OVERLAY_RELEASE=3.2.0.0
 SABNZBD_RELEASE=4.3.3
 SHELLCHECK_COMMIT=c7611df
-UNRAR_RELEASE=
+UNRAR_RELEASE=7.0.9
 UPX_RELEASE=4.2.4
