@@ -3,7 +3,7 @@
     "app": "hadolint",
     "repo": "hadolint/hadolint",
     "branch": "master",
-    "type": "release"
+    "type": "commit"
   },
   {
     "app": "jellyfin",
